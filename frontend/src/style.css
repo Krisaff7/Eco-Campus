@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Petit bonus pour le thème Eco-Campus */
+body {
+  background-color: #F9F9F9;
+  color: #2C3E50;
+}
