@@ -1,9 +1,80 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Petit bonus pour le thème Eco-Campus */
+/* Variables CSS pour le thème Eco-Campus */
+:root {
+  --eco-green: #2ECC71;
+  --eco-blue: #3498DB;
+  --eco-dark: #2C3E50;
+  --eco-light: #ECF0F1;
+  --eco-white: #FFFFFF;
+}
+
+/* Styles globaux */
 body {
-  background-color: #F9F9F9;
-  color: #2C3E50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--eco-light);
+  color: var(--eco-dark);
+  line-height: 1.6;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* Utilitaires */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--eco-green);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #27AE60;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+}
+
+.btn-secondary {
+  background-color: var(--eco-blue);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #2980B9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--eco-green);
+  color: var(--eco-green);
+}
+
+.btn-outline:hover {
+  background-color: var(--eco-green);
+  color: white;
 }
