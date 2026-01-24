@@ -46,7 +46,7 @@ Développé durant ma formation à l'**IFRI**, WorkGuard démontre ma capacité 
 
 ## 📧 Contact
 **Kris Affokpon (Krisaff7)**
-- LinkedIn : [Lien vers ton profil]
+- LinkedIn : www.linkedin.com/in/mahouton-kris-affokpon-12811937a
 - Email : affokponkris4@gmail.com
 -
 
