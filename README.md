@@ -38,3 +38,15 @@ Eco-Campus est une solution numérique conçue pour faciliter les déplacements 
    cd frontend
    npm install
    npm run serve
+
+## 🎓 Contexte académique
+Développé durant ma formation à l'**IFRI**, WorkGuard démontre ma capacité à transformer un besoin métier précis (gestion de quota d'heures) en une solution technique fonctionnelle et typée.
+
+---
+
+## 📧 Contact
+**Kris Affokpon (Krisaff7)**
+- LinkedIn : [Lien vers ton profil]
+- Email : affokponkris4@gmail.com
+-
+
