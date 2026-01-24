@@ -28,11 +28,13 @@ Eco-Campus est une solution numérique conçue pour faciliter les déplacements 
    ```bash
    git clone [https://github.com/Krisaff7/Eco-Campus.git](https://github.com/Krisaff7/Eco-Campus.git)
 2. **Configuration Backend (Django)**
-   -cd backend
-   -pip install -r requirements.txt
-   -python manage.py migrate
-   -python manage.py runserver
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python manage.py migrate
+   python manage.py runserver
 4. **Configuration Frontend (Vue.js)**
-   -cd frontend
-   -npm install
-   -npm run serve
+   ```bash
+   cd frontend
+   npm install
+   npm run serve
